@@ -3,4 +3,4 @@ A piece of code was created to allow the x-axis of a graph to show two different
 
 ![text](times1.png 'graph1') </p>
 
-![text](times2.png 'graph1')
+![text](times2.png 'graph2')
