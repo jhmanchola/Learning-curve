@@ -1,2 +1,2 @@
-# Self made solutions
-Some code I've written to solve problems encountered along the way.
+# Code to solve problems
+Some code I've written to solve random problems encountered along the way.
