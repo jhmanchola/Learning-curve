@@ -1,0 +1,181 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#e6194b",
+        "fill-opacity": 0.65,
+        "Location": "Kenya",
+        "Value": "10.000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              38.4313975,
+              1.4419683
+            ],
+            [
+              48.4313975,
+              11.4419683
+            ],
+            [
+              28.431397500000003,
+              11.4419683
+            ],
+            [
+              38.4313975,
+              1.4419683
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#3cb44b",
+        "fill-opacity": 0.65,
+        "Location": "France",
+        "Value": "15.000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.8883335,
+              46.603354
+            ],
+            [
+              16.8883335,
+              61.603354
+            ],
+            [
+              -13.1116665,
+              61.603354
+            ],
+            [
+              1.8883335,
+              46.603354
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#641e16",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#641e16",
+        "fill-opacity": 0.65,
+        "Location": "Israel",
+        "Value": "11.000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.0015196,
+              30.8760272
+            ],
+            [
+              46.0015196,
+              41.876027199999996
+            ],
+            [
+              24.0015196,
+              41.876027199999996
+            ],
+            [
+              35.0015196,
+              30.8760272
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#4363d8",
+        "fill-opacity": 0.65,
+        "Location": "Mexico",
+        "Value": "18.000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.1333416,
+              19.4326009
+            ],
+            [
+              -81.1333416,
+              37.4326009
+            ],
+            [
+              -117.1333416,
+              37.4326009
+            ],
+            [
+              -99.1333416,
+              19.4326009
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#f58231",
+        "fill-opacity": 0.65,
+        "Location": "India",
+        "Value": "18.000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.6677428,
+              22.3511148
+            ],
+            [
+              96.6677428,
+              40.351114800000005
+            ],
+            [
+              60.6677428,
+              40.351114800000005
+            ],
+            [
+              78.6677428,
+              22.3511148
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
