@@ -4,7 +4,7 @@ import requests
 
 def GeoJSONdict(df,df_value,locations,colors,scale=1.0):
     '''
-    Function that prints a usable block of code to create a .geojson file.
+    Function that prints a dictionary structure to create a .geojson file.
     df: Pandas dataframe.
     df_value: column of the dataframe containing the values to plot.
     locations: list of locations by name. Case-insensitive. Can be country or city.
