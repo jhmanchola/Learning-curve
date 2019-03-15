@@ -1,0 +1,181 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#e6194b",
+        "fill-opacity": 0.65,
+        "Location": "London",
+        "Value": "14.000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.1276474,
+              51.5073219
+            ],
+            [
+              2.6723526000000004,
+              54.3073219
+            ],
+            [
+              -2.9276474,
+              54.3073219
+            ],
+            [
+              -0.1276474,
+              51.5073219
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#3cb44b",
+        "fill-opacity": 0.65,
+        "Location": "Paris",
+        "Value": "15.000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3514992,
+              48.8566101
+            ],
+            [
+              5.3514992,
+              51.8566101
+            ],
+            [
+              -0.6485007999999999,
+              51.8566101
+            ],
+            [
+              2.3514992,
+              48.8566101
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#641e16",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#641e16",
+        "fill-opacity": 0.65,
+        "Location": "Oslo",
+        "Value": "19.000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.7389701,
+              59.9133301
+            ],
+            [
+              14.5389701,
+              63.7133301
+            ],
+            [
+              6.938970099999999,
+              63.7133301
+            ],
+            [
+              10.7389701,
+              59.9133301
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#4363d8",
+        "fill-opacity": 0.65,
+        "Location": "Berlin",
+        "Value": "12.000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.3888599,
+              52.5170365
+            ],
+            [
+              15.7888599,
+              54.9170365
+            ],
+            [
+              10.9888599,
+              54.9170365
+            ],
+            [
+              13.3888599,
+              52.5170365
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#f58231",
+        "fill-opacity": 0.65,
+        "Location": "Amsterdam",
+        "Value": "15.000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.89797550561798,
+              52.3745403
+            ],
+            [
+              7.89797550561798,
+              55.3745403
+            ],
+            [
+              1.8979755056179801,
+              55.3745403
+            ],
+            [
+              4.89797550561798,
+              52.3745403
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
