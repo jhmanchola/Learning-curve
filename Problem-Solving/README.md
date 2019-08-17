@@ -1,2 +1,2 @@
 # Code for problem solving
-Some code written to solve random problems encountered along the way.
+Some code written to solve random issues encountered along the way.
