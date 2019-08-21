@@ -19,8 +19,8 @@ sys
 
 #Custom classes:
 
-Hierarchy_tree.py   #Found here: https://github.com/jhmanchola/Learning-curve/blob/master/Custom%20Classes/Hierarchy_tree.py
+Hierarchy_tree.py   #Found here: https://github.com/jhmanchola/Learning-curve/blob/master/Probability-MIT-6.431x/Custom%20Classes/Hierarchy_tree.py
 
-Probability_Sets.py   #Found here: https://github.com/jhmanchola/Learning-curve/blob/master/Custom%20Classes/Probability_Sets.py
+Probability_Sets.py   #Found here: https://github.com/jhmanchola/Learning-curve/blob/master/Probability-MIT-6.431x/Custom%20Classes/Probability_Sets.py
 
-System_Layout.py    #Found here: https://github.com/jhmanchola/Learning-curve/blob/master/Custom%20Classes/System_Layout.py
+System_Layout.py    #Found here: https://github.com/jhmanchola/Learning-curve/blob/master/Probability-MIT-6.431x/Custom%20Classes/System_Layout.py
