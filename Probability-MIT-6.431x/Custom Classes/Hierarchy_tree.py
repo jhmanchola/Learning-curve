@@ -315,13 +315,15 @@ class TreeGraph:
             
         return product
     
-    def G_custom_legend(self,xpos=None,ypos=None,names={},des_gap=0.02):
+    def G_custom_legend(self,xpos=None,ypos=None,names={},des_gap=0.02,vert_gap=0.13):
         '''
         Create a custom legend for the graph.
         xpos: int or float for the x-axis position of the legend's box top left corner.
         ypos: int or float for the y-axis position of the legend's box top left corner.
         names: dictionary of all legend symbol => symbol description. Default is an empty dict.
         des_gap: int for the gap between the legend symbol and its text description. Default is 0.02.
+        vert_gap: float/int. Vertical gap between legend items. Default for horizontal tree is 0.13.
+                  Recommended for vertical tree is 0.0009.
 
         Returns a list of dictionaries, 2 dictionaries for each Graph symbol.
         '''
@@ -357,16 +359,15 @@ class TreeGraph:
             legend.append(dict(x=xpos,y=ypos,text=name,showarrow=False,xanchor='left'))
             legend.append(dict(x=xpos+des_gap,y=ypos,text=names[name],showarrow=False,xanchor='left'))
             
-            if self.orientation == 'v':
-                ypos -= 0.0009
-            else:
-                ypos -= 0.13
+            ypos -= vert_gap #Vertical gap default is for horizontal Tree. Adjust accordingly.
+
                                                   
         return legend
 
 
     def generic_plotly_plot(self, title, title_pos=0.05, height=None, width=None, notebook_mode=True,
-                            node_fontsize=12, legend=False,legend_labels=None,label_fontsize=11):
+                            node_fontsize=12, legend=False,legend_labels=None,legnd_pos=None,
+                            leg_des_gap=0.02,leg_vert_gap=0.13, label_fontsize=11):
         '''
         Helper function with generic plotly settings for a basic plot using 
         the TreeGraph() class instance settings.
@@ -378,6 +379,11 @@ class TreeGraph:
         notebook_mode: bool, allow a plotly plot to be shown in a Jupyter Notebook.
         legend: bool, if True show legend using lagend_labels.
         legend_labels: dictionary of all legend symbol => symbol description. Default is None.
+        legnd_pos: tuple(xval,yval)
+        leg_des_gap: int/float for the gap between the legend symbol and its text description. Default is 0.02.
+        leg_vert_gap: float/int. Vertical gap between legend items. Default for horizontal tree is 0.13.
+                      Recommended for vertical tree is 0.0009.
+        label_fontsize: int/float fontsize for labels
         '''  
 
         init_notebook_mode(connected=notebook_mode) #Allow plotly to plot inside notebook
@@ -427,8 +433,15 @@ class TreeGraph:
         self.node_traces(self.hierarchy_pos(),root_trace,node_trace) #Fill root_trace and node_trace 
 
         annotations = []
+     
         if legend == True:
-            for l in self.G_custom_legend(names=legend_labels): #Use the G_custom_legend() method 
+            if legnd_pos == None:
+                legend_function = self.G_custom_legend(names=legend_labels) #Use the G_custom_legend() method 
+            else:
+                legend_function = self.G_custom_legend(xpos=legnd_pos[0],ypos=legnd_pos[1],names=legend_labels,
+                                                       des_gap=leg_des_gap,vert_gap=leg_vert_gap)
+            
+            for l in legend_function:
                 annotations.append(l) #add each element of the G_custom_legend() list to annotations.
                 
         if self.edge_labels == None:
