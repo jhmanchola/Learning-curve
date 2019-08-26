@@ -1,1 +1,1 @@
-This are custom classes made for plotting hierarchy trees, system networks and probability sets with costumized options. The requirements.txt file shows the libraries used for this code and for the whole project in general.
+This are custom classes made for plotting hierarchy trees, system networks and probability sets with costumized options. The [requirements.txt](https://github.com/jhmanchola/Learning-curve/blob/master/Probability-MIT-6.431x/requirements.txt) file shows the libraries used for this code and for the whole project in general.
