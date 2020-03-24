@@ -4,6 +4,7 @@ Python object created to add multicolored fonts to the labels of a [NetworkX](ht
 
 Here's an example of a probability tree diagram:
 
+![](https://github.com/jhmanchola/Learning-curve/blob/master/Problem-Solving/Probability-Tree-Diagram-With-Multicolor-Font-labels/newplot.png)
 
 
 The main feature of this class is to allow the color coding of text, by letting the user to plot a line of text in a multicolor format:
