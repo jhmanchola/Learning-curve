@@ -5,7 +5,7 @@ Python object created to add multicolored fonts to the labels of a [NetworkX](ht
 The main feature of this class is to allow the color coding of text, by letting the user to plot a line of text in a multicolor format:
 
 ```python
-$\color{green}{T}\color{blue}{E}\color{red}{X}\color{pink}{T}$
+'$\color{green}{T}\color{blue}{E}\color{red}{X}\color{pink}{T}$'
 ```
 
 This was not a possibility in NetworkX, thus the need for this solution.
